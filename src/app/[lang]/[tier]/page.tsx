@@ -83,7 +83,7 @@ export default async function TierHubPage({
               isPremium ? "bg-primary-navy" : "bg-accent-gold"
             }`}
           />
-          <h2 className="text-primary-navy text-3xl lg:text-4xl font-extrabold leading-tight mb-6">
+          <h2 className="text-primary-navy text-3xl lg:text-4xl font-extrabold leading-tight mb-6 whitespace-pre-line">
             {meta.tagline}
           </h2>
           <p className="text-text-secondary text-[15px] leading-[1.9]">

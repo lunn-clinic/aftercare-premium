@@ -98,7 +98,7 @@ export const ui: Record<Lang, UICopy> = {
     tierPremiumTagline:
       "Precision recovery guides for lifting, tightening, and bio-stimulator volume procedures",
     tierUnifiedTagline:
-      "Recovery guides for every treatment, in one place",
+      "Recovery guides for every treatment,\nin one place",
     tierBasicDesc:
       "Everyday treatments · Maintenance · Injections & basic lasers",
     tierPremiumDesc:
