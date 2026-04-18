@@ -12,7 +12,7 @@ export function generateStaticParams() {
 }
 
 // 영어/중국어는 티어 구분 없이 premium 통합 페이지로 직진
-const UNIFIED_LANGS: readonly Lang[] = ["en", "zh"];
+const UNIFIED_LANGS: readonly Lang[] = ["en", "zh", "ja"];
 
 export async function generateMetadata({
   params,

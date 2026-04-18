@@ -1,5 +1,5 @@
 export type Tier = "basic" | "premium";
-export type Lang = "ko" | "en" | "zh";
+export type Lang = "ko" | "en" | "zh" | "ja";
 
 export type TimelinePhase = {
   when: string;

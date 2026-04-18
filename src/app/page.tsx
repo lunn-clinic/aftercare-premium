@@ -33,7 +33,7 @@ export default function LangSelectPage() {
             className="text-white/50 text-lg lg:text-xl leading-relaxed mb-3"
             style={{ fontFamily: '"Noto Serif KR", serif', fontWeight: 300 }}
           >
-            Aftercare Guide · 术后护理指南
+            Aftercare Guide · 术后护理指南 · アフターケアガイド
           </p>
 
           <p className="text-white/40 text-sm mt-12 mb-6 tracking-wide">

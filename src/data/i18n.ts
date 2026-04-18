@@ -1,17 +1,19 @@
 import type { Lang, UICopy } from "./types";
 
-export const LANGS: Lang[] = ["ko", "en", "zh"];
+export const LANGS: Lang[] = ["ko", "en", "zh", "ja"];
 
 export const langNativeName: Record<Lang, string> = {
   ko: "한국어",
   en: "English",
   zh: "中文",
+  ja: "日本語",
 };
 
 export const langShortLabel: Record<Lang, string> = {
   ko: "KO",
   en: "EN",
   zh: "ZH",
+  ja: "JA",
 };
 
 export const ui: Record<Lang, UICopy> = {
@@ -224,6 +226,76 @@ export const ui: Record<Lang, UICopy> = {
       injection: "注射·填充",
       laser: "激光",
       regeneration: "再生·护理",
+    },
+  },
+  ja: {
+    langLabel: "日本語",
+    aftercareGuide: "アフターケアガイド",
+    tierBasic: "ベーシックライン",
+    tierPremium: "プレミアムライン",
+    tierUnified: "プレミアムライン · アフターケア",
+    tierBasicSubtitle: "ベーシックケアライン",
+    tierPremiumSubtitle: "プレミアム リフティング・ボリュームライン",
+    tierUnifiedSubtitle: "全施術 統合アフターケア",
+    tierBasicTagline: "日常の回復とメンテナンスに最適化された7つの施術ガイド",
+    tierPremiumTagline:
+      "リフティング・タイトニング・バイオ刺激ボリュームを受けられた方のための\n精密リカバリーガイド",
+    tierUnifiedTagline: "受けられた全施術のリカバリーガイドを、\nひとつの場所に",
+    tierBasicDesc: "日常施術 · メンテナンス · 注射と基本レーザー",
+    tierPremiumDesc: "リフティング · タイトニング · バイオ刺激ボリューム · 高強度施術",
+    tierUnifiedDesc:
+      "リフティング・注射・レーザー・再生ケアまで、すべての施術を統合した回復ガイド",
+    viewGuide: "ガイドを見る",
+    guideCount: "{n}件のガイド",
+    forOurPatients: "For Our Patients · 名刺QR専用ページ",
+    heroHomeTitle: "施術が終わるその瞬間から、\n結果は始まります",
+    heroHomeIntro:
+      "ルン皮膚科で受けられた施術に合わせた、回復のためのカスタマイズガイドです。\n受けられたケアラインをお選びください。",
+    heroHomeCta: "受けられたケアラインをお選びください",
+    backToHome: "← 他のケアラインを見る",
+    otherLine: "他のケアラインを見る",
+    categoryLabel: "CATEGORY",
+    doLabel: "DO · 推奨",
+    dontLabel: "DON'T · 注意",
+    normalResponse: "NORMAL · 正常反応",
+    whenToVisit: "URGENT · 来院が必要なサイン",
+    recoveryTimeline: "Recovery Timeline",
+    timelinePhase: "時期別リカバリーガイド",
+    selfCheck: "異常反応セルフチェック",
+    selfCheckIntro: "正常な反応と来院が必要なサインを見分けます",
+    watchAndWait: "経過観察で大丈夫",
+    consultRecommended: "相談をおすすめします",
+    selfCheckOutro:
+      "いずれかに当てはまる場合は、ご自身で悩まず、朴衡權院長の診療をお受けください。",
+    synergyEyebrow: "SYNERGY",
+    synergyHeadline1: "単独でも効果はありますが、",
+    synergyHeadline2: "組み合わせることで深さが変わります",
+    synergyLead:
+      "回復サイクルに合わせて設計された組み合わせです。下記のタイミングと根拠をご確認ください。",
+    addOn: "+ ADD-ON",
+    nextVisit: "次回の来院",
+    nextVisitMonths: "次回の来院目安は{n}ヶ月後",
+    disclaimer:
+      "本ガイドは一般的なご案内であり、個人のお肌の状態によって異なる場合があります。異常反応が現れた場合は、必ず来院のうえ診療をお受けください。",
+    recoveryPhase: "PHASE",
+    phaseCountLabel: "{n}件のガイド",
+    quickNav: "カテゴリーへジャンプ",
+    cardGuideCta: "ガイドを見る →",
+    footerDisclaimer:
+      "本ガイドはルン皮膚科で施術を受けられた患者様の回復をサポートするためのご案内です。医療相談が必要な場合は、必ずご来院のうえ朴衡權院長の診療をお受けください。",
+    criticalKey: "KEY · 01",
+    heroSubtitleHome: "For Our Patients · 名刺QR専用ページ",
+    homeLineTitle: "AFTERCARE GUIDE",
+    homeLineLead:
+      "ルン皮膚科で受けられた施術に合わせた、回復のためのカスタマイズガイドです。",
+    patientInstruction:
+      "本ガイドはルン皮膚科で施術を受けられた患者様向けのご案内です。ご自身のケアラインが不明な場合は、受付までお問い合わせください。",
+    langSwitchLabel: "言語",
+    categories: {
+      lifting: "リフティング·タイトニング",
+      injection: "注射·ボリューム",
+      laser: "レーザー",
+      regeneration: "再生·ケア",
     },
   },
 };

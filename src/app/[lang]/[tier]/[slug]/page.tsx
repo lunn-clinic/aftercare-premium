@@ -11,7 +11,7 @@ import {
 import { LANGS, ui, formatCopy } from "@/data/i18n";
 import type { Lang, Tier } from "@/data/types";
 
-const UNIFIED_LANGS: readonly Lang[] = ["en", "zh"];
+const UNIFIED_LANGS: readonly Lang[] = ["en", "zh", "ja"];
 
 export function generateStaticParams() {
   const params: { lang: Lang; tier: Tier; slug: string }[] = [];

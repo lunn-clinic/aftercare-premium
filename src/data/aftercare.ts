@@ -3,6 +3,7 @@ import { treatmentMetas } from "./treatments-meta";
 import { contentKo } from "./treatments-ko";
 import { contentEn } from "./treatments-en";
 import { contentZh } from "./treatments-zh";
+import { contentJa } from "./treatments-ja";
 import { ui } from "./i18n";
 
 export type { Lang, Tier, Treatment } from "./types";
@@ -11,10 +12,11 @@ const byLang: Record<Lang, Record<string, TreatmentContent>> = {
   ko: contentKo,
   en: contentEn,
   zh: contentZh,
+  ja: contentJa,
 };
 
 /**
- * 정책: 영어/중국어 환자는 티어 구분 없이 모든 시술 가이드를 한 곳(프리미엄)에서 본다.
+ * 정책: 한국어 외 언어 환자는 티어 구분 없이 모든 시술 가이드를 한 곳(프리미엄)에서 본다.
  * 한국어만 베이직/프리미엄 분리 유지.
  */
 export function isUnifiedTier(lang: Lang, tier: Tier): boolean {
@@ -39,6 +41,7 @@ export function getBySlug(
     ko: contentKo[slug],
     en: contentEn[slug],
     zh: contentZh[slug],
+    ja: contentJa[slug],
   };
   const current = byLang[lang][slug];
   if (!current) return undefined;
@@ -62,6 +65,7 @@ export function getByTier(
       ko: contentKo[m.slug],
       en: contentEn[m.slug],
       zh: contentZh[m.slug],
+      ja: contentJa[m.slug],
     },
     current: byLang[lang][m.slug],
   }));
