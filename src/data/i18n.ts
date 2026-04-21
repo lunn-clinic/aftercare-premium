@@ -28,10 +28,10 @@ export const ui: Record<Lang, UICopy> = {
     tierUnifiedSubtitle: "프리미엄 통합 케어",
     tierBasicTagline: "일상 회복과 유지에 최적화된 7가지 시술 관리 가이드",
     tierPremiumTagline:
-      "리프팅·타이트닝·바이오자극 볼륨을 받으신 분을 위한\n정밀 회복 가이드",
+      "리프팅·타이트닝·콜라겐 볼륨을 받으신 분을 위한\n정밀 회복 가이드",
     tierUnifiedTagline: "받으신 모든 시술의 회복 가이드를 한 곳에서",
     tierBasicDesc: "일상 시술 · 유지 관리 · 주사와 기본 레이저",
-    tierPremiumDesc: "리프팅·타이트닝·바이오자극 볼륨 · 고강도 시술",
+    tierPremiumDesc: "리프팅·타이트닝·콜라겐 볼륨 · 고강도 시술",
     tierUnifiedDesc: "모든 시술의 회복 가이드를 한 곳에서",
     viewGuide: "가이드 보기",
     guideCount: "{n}개 가이드",
@@ -98,7 +98,7 @@ export const ui: Record<Lang, UICopy> = {
     tierBasicTagline:
       "Aftercare guides for 7 everyday recovery & maintenance treatments",
     tierPremiumTagline:
-      "Precision recovery guides for lifting, tightening, and bio-stimulator volume procedures",
+      "Precision recovery guides for lifting, tightening, and collagen volume procedures",
     tierUnifiedTagline:
       "Recovery guides for every treatment,\nin one place",
     tierBasicDesc:
@@ -172,10 +172,10 @@ export const ui: Record<Lang, UICopy> = {
     tierUnifiedSubtitle: "全项目术后护理",
     tierBasicTagline: "7项日常恢复与维护项目的术后护理指南",
     tierPremiumTagline:
-      "面向提升、紧致、生物刺激填充项目的精准恢复指南",
+      "面向提升、紧致、胶原蛋白填充项目的精准恢复指南",
     tierUnifiedTagline: "您接受的所有项目术后指南,集中在此处",
     tierBasicDesc: "日常项目 · 日常维护 · 注射与基础激光",
-    tierPremiumDesc: "提升 · 紧致 · 生物刺激填充 · 高强度项目",
+    tierPremiumDesc: "提升 · 紧致 · 胶原蛋白填充 · 高强度项目",
     tierUnifiedDesc: "提升 · 注射填充 · 激光 · 再生护理,全项目统一指南",
     viewGuide: "查看指南",
     guideCount: "{n}个指南",
@@ -239,10 +239,10 @@ export const ui: Record<Lang, UICopy> = {
     tierUnifiedSubtitle: "全施術 統合アフターケア",
     tierBasicTagline: "日常の回復とメンテナンスに最適化された7つの施術ガイド",
     tierPremiumTagline:
-      "リフティング・タイトニング・バイオ刺激ボリュームを受けられた方のための\n精密リカバリーガイド",
+      "リフティング・タイトニング・コラーゲンボリュームを受けられた方のための\n精密リカバリーガイド",
     tierUnifiedTagline: "受けられた全施術のリカバリーガイドを、\nひとつの場所に",
     tierBasicDesc: "日常施術 · メンテナンス · 注射と基本レーザー",
-    tierPremiumDesc: "リフティング · タイトニング · バイオ刺激ボリューム · 高強度施術",
+    tierPremiumDesc: "リフティング · タイトニング · コラーゲンボリューム · 高強度施術",
     tierUnifiedDesc:
       "リフティング・注射・レーザー・再生ケアまで、すべての施術を統合した回復ガイド",
     viewGuide: "ガイドを見る",

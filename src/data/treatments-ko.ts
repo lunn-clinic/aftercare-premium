@@ -281,10 +281,10 @@ export const contentKo: Record<string, TreatmentContent> = {
   },
 
   "collagen-volume-bio": {
-    procedureName: "바이오자극 볼륨 (쥬베룩·스컬트라·에스테필)",
+    procedureName: "콜라겐 볼륨 (쥬베룩·스컬트라·에스테필)",
     device: "쥬베룩 볼륨 · 스컬트라 · 에스테필",
     category: "주사·볼륨",
-    heroLine1: "바이오자극 볼륨 시술 후 회복 가이드",
+    heroLine1: "콜라겐 볼륨 시술 후 회복 가이드",
     heroLine2: "5-5-5 마사지부터 결절 예방, 회복 시점 관리까지 알려드립니다",
     criticalNotice: {
       label: "결절(뭉침) 예방의 핵심",
@@ -334,7 +334,7 @@ export const contentKo: Record<string, TreatmentContent> = {
     synergies: [
       {
         device: "스킨부스터",
-        timing: "바이오자극 볼륨 후 약 2 ~ 3주",
+        timing: "콜라겐 볼륨 후 약 2 ~ 3주",
         benefit:
           "재생 중인 피부에 수분·영양을 더해 결절 위험을 낮추고 결을 매끄럽게 다듬습니다",
         reason:
@@ -342,15 +342,15 @@ export const contentKo: Record<string, TreatmentContent> = {
       },
       {
         device: "리프팅 레이저",
-        timing: "바이오자극 볼륨 후 약 4 ~ 6주",
+        timing: "콜라겐 볼륨 후 약 4 ~ 6주",
         benefit:
-          "바이오자극으로 만들어지는 볼륨 위에 탄력 효과가 누적되어 자연스러운 입체감이 만들어집니다",
+          "콜라겐 자극으로 만들어지는 볼륨 위에 탄력 효과가 누적되어 자연스러운 입체감이 만들어집니다",
         reason:
           "볼륨이 안정된 시점에 리프팅이 더해지면 결과의 균형감이 한 단계 올라갑니다.",
       },
     ],
     rebookingDesc:
-      "바이오자극 볼륨의 결과는 1 ~ 2년 동안 유지됩니다. 시술 6개월·12개월 시점 재평가를 권장합니다.",
+      "콜라겐 볼륨의 결과는 1 ~ 2년 동안 유지됩니다. 시술 6개월·12개월 시점 재평가를 권장합니다.",
   },
 
   "botox": {
@@ -493,7 +493,7 @@ export const contentKo: Record<string, TreatmentContent> = {
           "필러로 채운 라인을 보톡스가 안정시켜, 결과가 더 오래 유지됩니다.",
       },
       {
-        device: "바이오자극 볼륨",
+        device: "콜라겐 볼륨",
         timing: "필러 후 약 4 ~ 6주",
         benefit:
           "필러의 즉각적 볼륨에 콜라겐 자극이 누적되어 결과의 깊이가 더해집니다",

@@ -265,10 +265,10 @@ export const contentZh: Record<string, TreatmentContent> = {
   },
 
   "collagen-volume-bio": {
-    procedureName: "生物刺激填充 (少女针·童颜针·塑然雅)",
+    procedureName: "胶原蛋白填充 (少女针·童颜针·塑然雅)",
     device: "Juvelook · Sculptra · Esthefil",
     category: "注射·填充",
-    heroLine1: "生物刺激填充术后恢复指南",
+    heroLine1: "胶原蛋白填充术后恢复指南",
     heroLine2: "从 5-5-5 按摩到硬结预防、恢复阶段的全程管理要点。",
     criticalNotice: {
       label: "预防硬结 (结节) 的核心",
@@ -315,19 +315,19 @@ export const contentZh: Record<string, TreatmentContent> = {
     synergies: [
       {
         device: "水光针",
-        timing: "生物刺激填充术后约 2 ~ 3 周",
+        timing: "胶原蛋白填充术后约 2 ~ 3 周",
         benefit: "为再生中的皮肤补水与营养,降低硬结风险并提升肤质顺滑度。",
         reason: "胶原活跃合成期的皮肤环境决定最终肤质。",
       },
       {
         device: "紧致提升激光",
-        timing: "生物刺激填充术后约 4 ~ 6 周",
+        timing: "胶原蛋白填充术后约 4 ~ 6 周",
         benefit: "在新生的胶原容积之上叠加弹性效果,形成自然的立体感。",
         reason: "容积稳定之后叠加提升,平衡感更上一阶。",
       },
     ],
     rebookingDesc:
-      "生物刺激填充效果维持 1 ~ 2 年。建议在术后 6 个月和 12 个月复诊评估。",
+      "胶原蛋白填充效果维持 1 ~ 2 年。建议在术后 6 个月和 12 个月复诊评估。",
   },
 
   "botox": {
@@ -466,7 +466,7 @@ export const contentZh: Record<string, TreatmentContent> = {
         reason: "肉毒素稳定填充的轮廓,效果更持久。",
       },
       {
-        device: "生物刺激填充",
+        device: "胶原蛋白填充",
         timing: "填充剂术后约 4 ~ 6 周",
         benefit: "即时容积 + 胶原刺激累积,效果深度增加。",
         reason: "两种容积机制互补,自然度与持久性同步提升。",

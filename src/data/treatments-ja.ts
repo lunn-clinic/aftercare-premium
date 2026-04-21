@@ -295,10 +295,10 @@ export const contentJa: Record<string, TreatmentContent> = {
   },
 
   "collagen-volume-bio": {
-    procedureName: "バイオ刺激ボリューム (ジュベルック・スカルプトラ・エステフィル)",
+    procedureName: "コラーゲンボリューム (ジュベルック・スカルプトラ・エステフィル)",
     device: "ジュベルック・スカルプトラ・エステフィル",
     category: "注射・ボリューム",
-    heroLine1: "バイオ刺激ボリューム — リカバリーガイド",
+    heroLine1: "コラーゲンボリューム — リカバリーガイド",
     heroLine2:
       "5-5-5マッサージから、しこり(結節)予防と回復期ケアまでをご案内します。",
     criticalNotice: {
@@ -349,7 +349,7 @@ export const contentJa: Record<string, TreatmentContent> = {
     synergies: [
       {
         device: "スキンブースター",
-        timing: "バイオ刺激ボリューム後 2〜3週間",
+        timing: "コラーゲンボリューム後 2〜3週間",
         benefit:
           "回復中の肌に水分と栄養を加え、しこりリスクを減らしつつキメを整えます。",
         reason:
@@ -357,7 +357,7 @@ export const contentJa: Record<string, TreatmentContent> = {
       },
       {
         device: "リフティングレーザー",
-        timing: "バイオ刺激ボリューム後 4〜6週間",
+        timing: "コラーゲンボリューム後 4〜6週間",
         benefit:
           "新しく生成されたボリュームの上に弾力効果を重ねることで、自然で立体的な結果を作ります。",
         reason:
@@ -365,7 +365,7 @@ export const contentJa: Record<string, TreatmentContent> = {
       },
     ],
     rebookingDesc:
-      "バイオ刺激ボリュームの結果は1〜2年持続します。6ヶ月と12ヶ月での再評価をおすすめします。",
+      "コラーゲンボリュームの結果は1〜2年持続します。6ヶ月と12ヶ月での再評価をおすすめします。",
   },
 
   "botox": {
@@ -513,7 +513,7 @@ export const contentJa: Record<string, TreatmentContent> = {
           "ボトックスがフィラーで満たされたラインを安定化させ、結果の持続期間を延ばします。",
       },
       {
-        device: "バイオ刺激ボリューム",
+        device: "コラーゲンボリューム",
         timing: "フィラー後 4〜6週間",
         benefit:
           "即時的なフィラーボリュームの上にコラーゲン刺激を積み重ねて、結果に深みを加えます。",

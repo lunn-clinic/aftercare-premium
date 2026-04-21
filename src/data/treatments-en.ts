@@ -295,10 +295,10 @@ export const contentEn: Record<string, TreatmentContent> = {
   },
 
   "collagen-volume-bio": {
-    procedureName: "Bio-Stimulator Volume (Juvelook · Sculptra · Esthefil)",
+    procedureName: "Collagen Volume (Juvelook · Sculptra · Esthefil)",
     device: "Juvelook · Sculptra · Esthefil",
     category: "Injections & Volume",
-    heroLine1: "Bio-Stimulator Volume — Recovery Guide",
+    heroLine1: "Collagen Volume — Recovery Guide",
     heroLine2:
       "From the 5-5-5 massage to nodule prevention and recovery-stage care.",
     criticalNotice: {
@@ -349,7 +349,7 @@ export const contentEn: Record<string, TreatmentContent> = {
     synergies: [
       {
         device: "Skin Booster",
-        timing: "~ 2 – 3 weeks after Bio-Stimulator Volume",
+        timing: "~ 2 – 3 weeks after Collagen Volume",
         benefit:
           "Adds moisture and nutrients to the recovering skin, reducing nodule risk and smoothing texture.",
         reason:
@@ -357,7 +357,7 @@ export const contentEn: Record<string, TreatmentContent> = {
       },
       {
         device: "Lifting Laser",
-        timing: "~ 4 – 6 weeks after Bio-Stimulator Volume",
+        timing: "~ 4 – 6 weeks after Collagen Volume",
         benefit:
           "Elasticity effects stack on top of the newly generated volume, creating natural dimensional results.",
         reason:
@@ -365,7 +365,7 @@ export const contentEn: Record<string, TreatmentContent> = {
       },
     ],
     rebookingDesc:
-      "Bio-Stimulator Volume results last 1 – 2 years. Re-evaluation at 6 and 12 months is recommended.",
+      "Collagen Volume results last 1 – 2 years. Re-evaluation at 6 and 12 months is recommended.",
   },
 
   "botox": {
@@ -513,7 +513,7 @@ export const contentEn: Record<string, TreatmentContent> = {
           "Botox stabilizes the filler-filled lines, extending how long the result lasts.",
       },
       {
-        device: "Bio-Stimulator Volume",
+        device: "Collagen Volume",
         timing: "~ 4 – 6 weeks after Filler",
         benefit:
           "Accumulating collagen stimulation on top of immediate filler volume adds depth to the result.",
